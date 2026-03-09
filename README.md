@@ -33,6 +33,13 @@ Also used some code from class to help with the javascript portions.
 from `scripts/step4-global-object-search.js`
 
 '''js
+ items.forEach(item => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <a href="${item.wikiLink}" target="_blank" class="card-link">
+        <img src="${item.image}" alt="${item.name}">
+        <span>${item.name}</span>
+      </a>
 
 
 
