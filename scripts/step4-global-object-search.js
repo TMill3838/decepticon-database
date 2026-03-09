@@ -14,11 +14,14 @@ function renderObjectResults(items) {
   }
   items.forEach(item => {
     const li = document.createElement("li");
-  li.innerHTML = `
-    <img src="${item.image}" alt="${item.name}" style="width:100%; height:100; object-fit:contain;">
-    <span>${item.name}</span>
-  `;
-  searchResults.appendChild(li);
+    li.innerHTML = `
+      <a href="${item.wikiLink}" target="_blank" class="card-link">
+        <img src="${item.image}" alt="${item.name}">
+        <span>${item.name}</span>
+      </a>
+    `;
+    searchResults.appendChild(li);
+    searchResults.appendChild(li);
   });
 }
 
@@ -32,7 +35,7 @@ function handleGlobalObjectSearch() {
 
   const results = jsObjectData.filter(item => {
     const values = Object.values(item);
-    
+
     return values.some(value => String(value).toLowerCase().includes(query));
   });
   renderObjectResults(results);

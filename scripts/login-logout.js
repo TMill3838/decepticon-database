@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+
+    console.log("Username is Megatron")
+    console.log("password is: AllHailMegatron1984");
+});
+
 const decepticonLogin = document.getElementById('decepticon-login');
 
 if (decepticonLogin) {

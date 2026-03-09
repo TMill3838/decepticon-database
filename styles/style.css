@@ -1,5 +1,6 @@
+
 body {
-    font-family: orbitron;
+    font-family: "Orbitron", sans-serif;
     background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d14bae9-e87f-4661-9dc3-d7f0875d43f2/dfonz9c-3d5a4968-bb1f-4516-8064-6554dc7ce8af.jpg/v1/fill/w_1192,h_670,q_70,strp/decepticons__4k_hd_wallpaper_by_generation_knight_dfonz9c-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjMwNCIsInBhdGgiOiIvZi8xZDE0YmFlOS1lODdmLTQ2NjEtOWRjMy1kN2YwODc1ZDQzZjIvZGZvbno5Yy0zZDVhNDk2OC1iYjFmLTQ1MTYtODA2NC02NTU0ZGM3Y2U4YWYuanBnIiwid2lkdGgiOiI8PTQwOTYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UCemVdmrXliQYgvOBusrS-JLDA6McIvdxW-ogj84Wuo');
     /* background image made by generation-knight on DeviantArt */
     background-repeat: no-repeat;
@@ -30,7 +31,11 @@ body {
 
 .navbar-brand {
     color: rgb(187, 77, 255);
-    text-decoration: none;
+    display: flex; 
+    flex-direction: row; 
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 
 }
 
@@ -72,7 +77,6 @@ main {
 
 .text-purple {
     color: #a29bfe;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .border-purple {
@@ -80,10 +84,15 @@ main {
 }
 
 
+
 .search {
-    background-color: rgb(40, 4, 58);
-    color: rgb(187, 77, 255);
-    border-radius: 10px;
+   display: inline-block;
+    background-color: rgb(40, 4, 58); 
+    color: rgb(187, 77, 255);        
+    border: 1px solid blueviolet;    
+    padding: 8px 15px;
+    border-radius: 10px;             
+    font-family: "Orbitron", sans-serif;
 
 }
 
@@ -99,6 +108,7 @@ main {
     background-color: rgba(137, 43, 226, 0.46);
     border: 1px solid blueviolet;
     font-family: "Orbitron", "sans-seriif";
+    color: #ffffff;
 
 }
 
@@ -114,9 +124,27 @@ main {
     background-color: blueviolet;
 }
 
+.card-link {
+    text-decoration: none; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: inherit; 
+}
+
+.card-link img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 4px;
+    background: #000;
+}
+
 #searchResults {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));; 
     gap: 20px;                             
     list-style-type: none;                 
     padding: 0;
