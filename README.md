@@ -27,8 +27,17 @@ I wanted the font choice to be fitting of a SCI-FI film which is why I chose to 
 
 The search feature was an orginal idea. I always liked how some websites would have a feature to when you click on an image it glows which is why I chose to do that for the project.
 
+Also used some code from class to help with the javascript portions.
+
 # Sample Sniipet Code
-from 
+from `scripts/step4-global-object-search.js`
+
+'''js
+
+
+
+```
+
 
 
 
