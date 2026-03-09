@@ -60,12 +60,12 @@ main {
 
     color: #ffffff;
     padding: 40px;
-    border: 2px solid #8e44ad;
+    border: 2px solid blueviolet;
 
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(142, 68, 173, 0.5);
 
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
     text-align: center;
 }
@@ -73,11 +73,10 @@ main {
 .text-purple {
     color: #a29bfe;
     font-family: 'Courier New', Courier, monospace;
-    /* Makes it look like a terminal */
 }
 
 .border-purple {
-    border-color: #8e44ad !important;
+    border-color: blueviolet !important;
 }
 
 
@@ -86,4 +85,55 @@ main {
     color: rgb(187, 77, 255);
     border-radius: 10px;
 
+}
+
+/* Search */
+.form-control {
+    background-color: #000000;
+    border: 1px solid blueviolet;
+    font-family: "Orbitron", "sans-seriif";
+
+}
+
+.form-control:focus {
+    background-color: rgba(137, 43, 226, 0.46);
+    border: 1px solid blueviolet;
+    font-family: "Orbitron", "sans-seriif";
+
+}
+
+
+.btn-outline-success {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn-outline-success:hover {
+   box-shadow: 0 0 15px #9d4edd;
+    color: black;
+    background-color: blueviolet;
+}
+
+#searchResults {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;                             
+    list-style-type: none;                 
+    padding: 0;
+    margin-top: 20px;
+}
+
+#searchResults li {
+    border: 1px solid rgba(138, 43, 226, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#searchResults li:hover {
+    box-shadow: 0 0 15px #9d4edd;
 }

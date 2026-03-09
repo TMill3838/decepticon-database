@@ -11,7 +11,7 @@ if (decepticonLogin) {
             localStorage.setItem("RiseUpLoggedIn", "true");
             localStorage.setItem("currentDecepticonUser", username);
 
-            window.location.href = "index.html";
+            window.location.href = "../index.html";
         } else {
             document.getElementById('message').innerText = "Access Denied: Soundwave has eyes on you";
 
