@@ -1,0 +1,89 @@
+body {
+    font-family: orbitron;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d14bae9-e87f-4661-9dc3-d7f0875d43f2/dfonz9c-3d5a4968-bb1f-4516-8064-6554dc7ce8af.jpg/v1/fill/w_1192,h_670,q_70,strp/decepticons__4k_hd_wallpaper_by_generation_knight_dfonz9c-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjMwNCIsInBhdGgiOiIvZi8xZDE0YmFlOS1lODdmLTQ2NjEtOWRjMy1kN2YwODc1ZDQzZjIvZGZvbno5Yy0zZDVhNDk2OC1iYjFmLTQ1MTYtODA2NC02NTU0ZGM3Y2U4YWYuanBnIiwid2lkdGgiOiI8PTQwOTYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UCemVdmrXliQYgvOBusrS-JLDA6McIvdxW-ogj84Wuo');
+    /* background image made by generation-knight on DeviantArt */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    width: 100;
+    overflow: hidden;
+    border-bottom: 2px solid rgba(144, 0, 255, 0.5);
+    box-shadow: 0px 4px 10px 2px rgba(170, 0, 255, 0.3);
+
+}
+
+.navbar-brand {
+    color: rgb(187, 77, 255);
+    text-decoration: none;
+
+}
+
+.navbar-nav {
+    background-color: rgb(40, 4, 58);
+    color: rgb(187, 77, 255);
+    border-radius: 10px;
+}
+
+.nav-login {
+    color: rgb(187, 77, 255);
+}
+
+body {
+    background-color: #1a1a1a;
+
+    margin: 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.database-card {
+    background-color: #000000;
+
+    color: #ffffff;
+    padding: 40px;
+    border: 2px solid #8e44ad;
+
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(142, 68, 173, 0.5);
+
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-purple {
+    color: #a29bfe;
+    font-family: 'Courier New', Courier, monospace;
+    /* Makes it look like a terminal */
+}
+
+.border-purple {
+    border-color: #8e44ad !important;
+}
+
+
+.search {
+    background-color: rgb(40, 4, 58);
+    color: rgb(187, 77, 255);
+    border-radius: 10px;
+
+}
