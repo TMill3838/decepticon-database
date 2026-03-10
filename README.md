@@ -17,8 +17,8 @@ I always enjoyed the novelty of fan website dedicated to explaining information 
 <img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/d5ab3b2e-4e92-4cad-ab1f-8cab07561f49" />
 
 # Links
-Repo:
-Page: 
+Repo: https://github.com/TMill3838/decepticon-database
+Page: https://tmill3838.github.io/decepticon-database/
 
 # Design
 I wanted the design to resonate something that would be typical of an evil decepticon webasite. A nice purple glow with dark black colors seemed fitting. I also wanted to make it feel more like those old offical websites that were directed more towards kids. Having a little bit of humor.
@@ -29,7 +29,7 @@ The search feature was an orginal idea. I always liked how some websites would h
 
 Also used some code from class to help with the javascript portions.
 
-# Sample Sniipet Code
+# Sample Code
 from `scripts/step4-global-object-search.js`
 
 
