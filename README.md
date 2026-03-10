@@ -45,8 +45,16 @@ from `scripts/step4-global-object-search.js`
 the original search I modified to be able to act as a link and display image. It also blocks out other attributes in the array so it only displays the image and the name
 
 ```css
-
-
+#searchResults li {
+    border: 1px solid rgba(138, 43, 226, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 ```
 
 
