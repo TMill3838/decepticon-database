@@ -32,7 +32,8 @@ Also used some code from class to help with the javascript portions.
 # Sample Sniipet Code
 from `scripts/step4-global-object-search.js`
 
-'''js
+
+```js
  items.forEach(item => {
     const li = document.createElement("li");
     li.innerHTML = `
@@ -40,10 +41,16 @@ from `scripts/step4-global-object-search.js`
         <img src="${item.image}" alt="${item.name}">
         <span>${item.name}</span>
       </a>
+```
+the original search I modified to be able to act as a link and display image. It also blocks out other attributes in the array so it only displays the image and the name
 
+```css
 
 
 ```
+
+
+
 
 
 
