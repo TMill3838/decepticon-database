@@ -56,6 +56,10 @@ the original search I modified to be able to act as a link and display image. It
     justify-content: space-between;
 }
 ```
+# Verification
+I have verified that the page functions well on desktop with working links and buttons.
+
+It works well on mobile devices. On the search for mobile the boxes do not show them in multiple columns only rows.
 
 
 
