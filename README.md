@@ -56,6 +56,11 @@ the original search I modified to be able to act as a link and display image. It
     justify-content: space-between;
 }
 ```
+# Architecture & Infrastructure
+The website shows a client-server relationship that stores session data. the session data in the session.js script file regulates information regarding log in status. 
+
+The website uses some bootstrap but most of it has been manipulated for a better asethtic on the website.
+
 # Verification
 I have verified that the page functions well on desktop with working links and buttons.
 
